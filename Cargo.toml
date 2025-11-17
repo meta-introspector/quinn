@@ -1,10 +1,10 @@
-[workspace]
+#[workspace]
 members = ["quinn", "quinn-proto", "quinn-udp", "bench", "perf", "fuzz", "docs/book"]
 default-members = ["quinn", "quinn-proto", "quinn-udp", "bench", "perf"]
 resolver = "2"
 
 [workspace.package]
-rust-version = "1.80.0"
+# rust-version = "1.80.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/quinn-rs/quinn"
